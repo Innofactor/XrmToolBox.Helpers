@@ -25,5 +25,13 @@
     <Compile Include="$(MSBuildThisFileDirectory)Utils\IUpdateToolStrip.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utils\UpdateToolStripEventArgs.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Utils\ViewItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmlEditorUtils\ControlUtils.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmlEditorUtils\FindTextHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmlEditorUtils\IComboBoxItem.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmlEditorUtils\IDefinitionSavable.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmlEditorUtils\ListViewItemComparer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmlEditorUtils\Prompt.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmlEditorUtils\SaveEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XmlEditorUtils\TreeNodeCapabilities.cs" />
   </ItemGroup>
 </Project>
