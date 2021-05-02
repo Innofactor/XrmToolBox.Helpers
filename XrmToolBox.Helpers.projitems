@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>88280ea8-f014-41de-9752-e1ddfff053a9</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>XrmToolBox.Helpers</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)SDK\IComparableEntity.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SDK\IsolationMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SDK\Message.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SDK\MessageFilter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SDK\OrganizationSnapshot.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SDK\PluginAssembly.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SDK\PluginType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SDK\ProcessingStep.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SDK\Solution.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SDK\StateCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\Constants.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\Helpers.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\IUpdateToolStrip.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\UpdateToolStripEventArgs.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Utils\ViewItem.cs" />
+  </ItemGroup>
+</Project>
